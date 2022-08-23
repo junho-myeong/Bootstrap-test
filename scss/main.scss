@@ -1,0 +1,21 @@
+// scss에서는 상대 경로를 통해서찾아야 한다. js는 node_modules로 바로 접근 가능하다
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+// variables라는 변수 파일에서 가져온다.
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  yellowgreen,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+// css기능만 잇기 때문에 성능 문제로 그렇게 문제가 되진 않는다.
+@import '../node_modules/bootstrap/scss/bootstrap';

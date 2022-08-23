@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junho-myeong/Bootstrap-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junho-myeong/Bootstrap-test/issues"
+  },
+  "homepage": "https://github.com/junho-myeong/Bootstrap-test#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.54.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
