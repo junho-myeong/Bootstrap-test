@@ -114,7 +114,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 ## 테마색상 커스터 마이징
 - CDN방식으로는 우리가 원하는 데로 커스터 마이징 하기가 어렵다.
 - customize메뉴를 통해서 사용법을 익힐수 잇다. 
-```css
+```scss
 // scss에서는 상대 경로를 통해서찾아야 한다. js는 node_modules로 바로 접근 가능하다
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -139,4 +139,4 @@ $theme-colors: (
 - 우리가 필요로 하는 기능만 가져다가 사용하기
 - default export이기 때문에 이름으로 받아줘야한다.
 - npm i @popperjs/core를 설치해서 우리가 popper를 사용하는 bootstrap을 사용한다면 이 패키지를 설치해줘야한다.
-- 초기화를 하지 않아도 되는 컴포넌트도 존재하고, 초기화를 해야하는 것도 존재한다, 예를들어 스피너와 버튼같은 경우는 초기화 할필요가 업다.
+- 초기화를 하지 않아도 되는 컴포넌트도 존재하고, 초기화를 해야하는 것도 존재한다, 예를들어 스피너와 버튼같은 경우는 초기화 할필요가 없다.
